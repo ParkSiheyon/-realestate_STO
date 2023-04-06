@@ -35,15 +35,19 @@ header {
 }
 
 .hd_wrap {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
   color: var(--white);
   cursor: pointer;
+}
+
+
+.hd_wrap.black {
+  color: var(--white);
+  border-bottom: 1px solid rgba(254, 254, 255, 0.3);
+  background: var(--white);
 }
 
 .hd_menu {
@@ -54,12 +58,6 @@ header {
   margin: 0 auto
 }
 
-
-.hd_wrap.black {
-  color: var(--white);
-  border-bottom: 1px solid rgba(254, 254, 255, 0.3);
-  background: var(--white);
-}
 
 
 .hd_logo {
