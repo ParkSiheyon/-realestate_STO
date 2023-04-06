@@ -31,6 +31,7 @@ button, input, select, label {
 header {
   width: 100%;
   border-bottom: 1px solid rgba(254, 254, 255, 0.3);
+  position: fixed;
 }
 
 .hd_wrap {
@@ -40,7 +41,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4.2rem 2rem;
+  padding: 0 2rem;
   color: var(--white);
   cursor: pointer;
 }
@@ -55,9 +56,9 @@ header {
 
 
 .hd_wrap.black {
-  padding: 4.2rem 2rem;
   color: var(--white);
   border-bottom: 1px solid rgba(254, 254, 255, 0.3);
+  background: var(--white);
 }
 
 
@@ -67,9 +68,60 @@ header {
 
 .gnb {
   display: flex;
-  gap: 5.6rem;
   font-size: 1.4rem;
   margin-right: 9.5rem;
+}
+
+.gnb p {
+  padding: 4.3rem 2.1rem 3.9rem 2.1rem;
+  border: 1px solid transparent;
+  position: relative;
+}
+
+.black .gnb p::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  top: 39%;
+  left: 15%;
+  background: url(/img/ico-hover_black.svg);
+  opacity: 0;
+}
+
+.black .gnb p:hover::after {
+  opacity: 1;
+}
+
+.black50 .gnb p::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  top: 39%;
+  left: 15%;
+  background: url(/img/ico-hover_white.svg);
+  opacity: 0;
+}
+
+.black50 .gnb p:hover::after {
+  opacity: 1;
+}
+
+
+.black50 .gnb p:hover {
+  border-bottom: 2px solid #222222;
+  margin-bottom: -2px;
+}
+
+.black .gnb p:hover {
+  border-bottom: 2px solid var(--btn-bg1);
+  margin-bottom: -2px;
+}
+
+.black50 .gnb p:hover {
+  border-bottom: 2px solid var(--white);
+  margin-bottom: -2px;
 }
 
 .btn_another {
@@ -131,17 +183,25 @@ header {
     color: #ffffff;
     border-radius: 0;
     padding: .8rem 2.4rem;
+    border-radius: 2px;
   }
 
   .btn.bg_linebl {
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    border: 1px solid #222222;
+    color: #222222;
     border-radius: 0;
     padding: .8rem 2.4rem;
     border-radius: 2px;
   }
 
+  section {
+    /* header fixed 설정 때문에 붙여둔 height입니다 사용안하셔도 됩니답!!!!!! */
+    height: 50vh;
+    background: var(--point);
+  }
+
 /* footer */
+
 
 footer {
     background: #454547;
