@@ -1,0 +1,193 @@
+@charset 'utf-8';
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    margin: 0;
+    }
+
+html,body {
+    font-size: 10px;
+    }
+
+:root {
+    --btn-bg1: #ff9122;
+    --btn-bg2: #222222;
+    --white: #ffffff;
+    --black: #575759;
+    --gr-bg01:linear-gradient(180deg, #FFA142 0%, #EB7D17 100%);
+    --gr-bh02:linear-gradient(180deg, #222222 0%, #4F4F4F 100%);
+    --point: #C3FCF1;
+}
+
+button, input, select, label {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    margin: 0;
+}
+
+/* header */
+
+header {
+  width: 100%;
+  border-bottom: 1px solid rgba(254, 254, 255, 0.3);
+}
+
+.hd_wrap {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.2rem 2rem;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.hd_menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto
+}
+
+
+.hd_wrap.black {
+  padding: 4.2rem 2rem;
+  color: var(--white);
+  border-bottom: 1px solid rgba(254, 254, 255, 0.3);
+}
+
+
+.hd_logo {
+  margin-right: 42rem;
+}
+
+.gnb {
+  display: flex;
+  gap: 5.6rem;
+  font-size: 1.4rem;
+  margin-right: 9.5rem;
+}
+
+.btn_another {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.4rem;
+}
+
+.register a {
+  color: var(--btn);
+}
+
+.login {
+  background: transparent;
+}
+
+.login.white {
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+.hd_wrap.black .gnb {
+  color: #222222;
+}
+
+.black50 {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.pb_10 {
+  padding-bottom: 1rem;
+}
+
+.wh {
+  color: var(--white);
+}
+
+.or {
+  color: var(--btn-bg1);
+}
+
+.bl {
+    color: var(--btn-bg2);
+}
+
+.btn{
+    padding: 1.7rem 2.2rem;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 100%;
+    border: transparent;
+    cursor: pointer;
+  }
+
+  .btn.bg_linewh {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 0;
+    padding: .8rem 2.4rem;
+  }
+
+  .btn.bg_linebl {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 0;
+    padding: .8rem 2.4rem;
+    border-radius: 2px;
+  }
+
+/* footer */
+
+footer {
+    background: #454547;
+    padding: 5rem 10rem;
+    color: #FEFEFF;
+  } 
+
+  .fot_wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .fot_text {
+    display: flex;
+    gap: 12.8rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+  }
+
+  .fot_subtitle {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 1.6rem;
+  }
+
+  .fot_introduce p:nth-of-type(2) {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+  }
+
+  .fot_support p:nth-of-type(2) {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+  }
+
+  .fot_information {
+    font-size: 1.2rem;
+    color:  #959598;
+    line-height: 1.5;
+    font-weight: 500;
+  }
