@@ -12,6 +12,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
 // footer용
 // select box 열기
 function myFunction() {
@@ -49,8 +50,6 @@ window.onclick = function(event) {
     }
   }
 }
-
-
 
 // 모달창 쿼리
 const body = document.querySelector('body');

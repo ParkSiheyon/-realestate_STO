@@ -7,6 +7,8 @@
     <title>컴포넌트</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/common.css">
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/common.js"></script>
     <script src="../js/main.js"></script>
 </head>
 <body>
@@ -18,15 +20,15 @@
     <button class="btn invertbtn bg_blor">버튼</button>
     <button class="btn invertbtn bg_orbl">버튼</button>
     <!-- 페이지네이션 -->
-    <div class="pagenation_wrap">
-        <button class="prev"></button>
-        <button class="num active">1</button>
-        <button class="num">2</button>
-        <button class="num">3</button>
-        <button class="num">4</button>
-        <button class="num">5</button>
-        <button class="next"></button>
-      </div>
+    <ul class="paging">
+        <li><img src="../img/ico-prev.svg" alt="prev"></li>
+        <li class="p_num on">1</li>
+        <li class="p_num">2</li>
+        <li class="p_num">3</li>
+        <li class="p_num">4</li>
+        <li class="p_num">5</li>
+        <li><img src="../img/ico-next.svg" alt="next"></li>
+    </ul>
     <!-- input요소 -->
     <p>input</p>
     <div class="input_text">
@@ -35,50 +37,29 @@
     </div>
     <!-- 드롭다운 -->
     <p>드롭다운</p>
-    <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">드롭다운</button>
-      <div class="Dropdown dropdown-content">
-        <a href="#">선택001</a>
-        <a href="#">선택002</a>
-        <a href="#">선택003</a>
-      </div>
+    <select class="select">
+        <option disabled selected>전체 게시판</option>
+        <option value="notice01">게시판1</option>
+        <option value="notice02">게시판2</option>
+        <option value="notice03">게시판3</option>
+        <option value="notice04">게시판4</option>
+    </select>
+    <!-- 체크박스 -->
+    <p>체크박스</p>
+    <div class="checkbox">
+        <input type="checkbox" name="checkbox" class="checkbox" id="cb1">
+        <label for="cb1"></label>
+        <label for="cb1" class="cb_txt">SMS</label>
     </div>
-    <!-- footer -->
-    <footer>
-        <div class="fot_wrap">
-            <div class="fot_menu">
-                <div class="fot_text">
-                    <div class="fot_introduce">
-                        <p class="fot_subtitle">회사</p>
-                        <p>
-                            <span>재단소개</span>
-                            <span>개인정보처리방침</span>
-                            <span>서비스 이용약관</span>
-                        </p>
-                    </div>
-                    <div class="fot_support">
-                        <p class="fot_subtitle">고객지원</p>
-                        <p>
-                            <span>FAQ</span>
-                            <span>이용가이드</span>
-                        </p>
-                    </div>
-                                </div>
-                                <div class="fot_information">
-                    <p>
-                        <span>대표이사 홍길동 |</span>
-                        <span>사업자 등록번호 111-84-22222 |</span>
-                        <span>온라인투자연게금융업 등록번호 2022-10</span>
-                    </p>
-                    <p>
-                        <span>통신판매업신고 제2022-서울강남-1245 |</span>
-                        <span>주소 서울특별시 강남구 학동 112 4층</span>
-                    </p>
-                    <p>Copyright 2023. Develop Splinter All right reserved.</p>
-                </div>
-            </div>
-            <div><img src="../img/img-logo.svg" alt=""></div>
-        </div>
-    </footer>
+    <!-- radio -->
+    <p>radio</p>
+    <div class="radio">
+        <input type="radio" name="radio" class="radio" id="ra1">
+        <label for="ra1"></label>
+        <label for="ra1" class="ra_txt">수신거부</label>
+        <input type="radio" name="radio" class="radio" id="ra2">
+        <label for="ra2"></label>
+        <label for="ra2" class="ra_txt">수신</label>
+    </div>
 </body>
 </html>
