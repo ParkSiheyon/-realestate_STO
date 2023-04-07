@@ -17,7 +17,7 @@ button, a, input, select, label {
 
 .section_01 {
     height: 60rem;
-    background: url(/img/img-issuer_mainbanner.svg) center no-repeat;
+    background: url(../img/img-issuer_mainbanner.svg) center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -136,7 +136,7 @@ button, a, input, select, label {
 }
 
 .element01 {
-    background: url(/img/img-issuer_sec2banner_01.svg);
+    background: url(../img/img-issuer_sec2banner_01.svg);
     width: 100%;
     max-width: 32rem;
     height: 35.5rem;
@@ -163,7 +163,7 @@ button, a, input, select, label {
 }
 
 .element02 {
-    background: url(/img/img-issuer_sec2banner_02.svg);
+    background: url(../img/img-issuer_sec2banner_02.svg);
     width: 100%;
     max-width: 66.3rem;
     height: 35.5rem;
@@ -189,7 +189,7 @@ button, a, input, select, label {
 
 
 .element03 {
-    background: url(/img/img-issuer_sec2banner_03.svg);
+    background: url(../img/img-issuer_sec2banner_03.svg);
     width: 100%;
     max-width: 66.3rem;
     height: 35.5rem;
@@ -216,7 +216,7 @@ button, a, input, select, label {
 
 
 .element04 {
-    background: url(/img/img-issuer_sec2banner_04.svg);
+    background: url(../img/img-issuer_sec2banner_04.svg);
     width: 100%;
     max-width: 32rem;
     height: 35.5rem;
@@ -240,7 +240,7 @@ button, a, input, select, label {
 /* section04 */
 
 .section_04 {
-    background: url(/img/img-issuer_sec4background.svg) no-repeat center;
+    background: url(../img/img-issuer_sec4background.svg) no-repeat center;
     background-size: cover;
     height: 73.7rem;
 }

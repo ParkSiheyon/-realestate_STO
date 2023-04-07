@@ -59,7 +59,7 @@ html,body {
 
 .section_01 {
     height: 60rem;
-    background: url(/img/img-back_mainslide.svg) center no-repeat;
+    background: url(../img/img-back_mainslide.svg) center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -82,7 +82,7 @@ html,body {
 
 .section_02 {
     height: 70rem;
-    background: url(/img/img-back_investgoods.svg);
+    background: url(../img/img-back_investgoods.svg);
 }
 
 .section2_wrap {
@@ -278,7 +278,7 @@ html,body {
 
 .section_05 {
     height: 60rem;
-    background: url(/img/img-sec5-background.svg) center no-repeat;
+    background: url(../img/img-sec5-background.svg) center no-repeat;
     background-size: cover;
 }
 
