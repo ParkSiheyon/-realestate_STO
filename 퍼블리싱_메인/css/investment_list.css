@@ -27,7 +27,7 @@ button, a, input, select, label {
 
 .section_01 {
     height: 60rem;
-    background: url(/img/img-investlist_main.svg) center no-repeat;
+    background: url(../img/img-investlist_main.svg) center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;

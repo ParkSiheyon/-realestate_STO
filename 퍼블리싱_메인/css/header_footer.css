@@ -52,17 +52,18 @@ header {
 
 .hd_menu {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto
 }
 
+.gnb_wrap {
+  display: flex;
 
-
-.hd_logo {
-  margin-right: 42rem;
 }
+
 
 .gnb {
   display: flex;
@@ -83,7 +84,7 @@ header {
   position: absolute;
   top: 39%;
   left: 15%;
-  background: url(/img/ico-hover_black.svg);
+  background: url(../img/ico-hover_black.svg);
   opacity: 0;
 }
 
@@ -98,7 +99,7 @@ header {
   position: absolute;
   top: 39%;
   left: 15%;
-  background: url(/img/ico-hover_white.svg);
+  background: url(../img/ico-hover_white.svg);
   opacity: 0;
 }
 
