@@ -25,51 +25,51 @@
 }
 
 .btn.bg_or {
-  background: #FF9122;
-  color: #ffffff;
+  background: var(--btn-bg1);
+  color: var(--white);
 }
 
 .btn.bg_wh {
-  background: #ffffff;
+  background: var(--white);
   border: 1px solid #BBBBBF;
   color: #BBBBBF;
 }
 
 .btn.bg_lineor {
-  background: #ffffff;
-  border: 1px solid #ff9122;
-  color: #FF9122;
+  background: var(--white);
+  border: 1px solid var(--btn-bg1);
+  color: var(--btn-bg1);
 }
 
 .btn.bg_linebl {
-  border: 1px solid #222222;
-  color: #222222;
+  border: 1px solid var(--btn-bg2);
+  color: var(--btn-bg2);
   border-radius: 0;
   padding: .8rem 2.4rem;
 }
 
 .btn.bg_linewh {
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 1px solid var(--white);
+  color: var(--white);
   border-radius: 0;
   padding: .8rem 2.4rem;
 }
 
 .btn.bg_linebl {
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 1px solid var(--white);
+  color: var(--white);
   border-radius: 0;
   padding: .8rem 2.4rem;
 }
 
 .btn.bg_blor {
-  background: #222222;
-  color: #ff9122;
+  background: var(--btn-bg2);
+  color: var(--btn-bg1);
 }
 
 .btn.bg_orbl {
-  background: #ff9122;
-  color: #222222;
+  background: var(--btn-bg1);
+  color: var(--btn-bg2);
 }
 
 .invertbtn {
